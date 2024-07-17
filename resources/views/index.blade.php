@@ -4,12 +4,12 @@
             <x-fade-in class="max-w-3xl">
                 <h1
                     class="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-                    Award-winning development studio based in Denmark.
+                    Take your marketing to the next level.
                 </h1>
                 <p class="mt-6 text-xl text-neutral-600">
-                    We are a development studio working at the intersection of design
-                    and technology. It’s a really busy intersection though — a lot of
-                    our staff have been involved in hit and runs.
+                    Take the headache out of your online presence. <span class="font-semibold">Bridgewater Marketing
+                        Group</span> provides fully customized marketing plans for every
+                    service you need.
                 </p>
             </x-fade-in>
         </x-container>
