@@ -1,7 +1,7 @@
 <x-layouts.base>
     <x-layouts.root>
         <x-container class="mt-24 sm:mt-32 md:mt-56">
-            <x-fade-in class="max-w-3xl">
+            <x-fade-in class="max-w-3xl py-24 sm:py-12">
                 <h1
                     class="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
                     Take your marketing to the next level.

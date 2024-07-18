@@ -21,7 +21,7 @@
             <div class="h-px flex-auto bg-neutral-800"></div>
         </x-fade-in>
         <x-fade-in-stagger-parent>
-            <ul role="list" class="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
+            <ul role="list" class="pt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
                 @foreach ($clients as $client)
                     <li>
                         <x-fade-in-stagger-child index="{{ $loop->index }}">
