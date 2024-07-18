@@ -4,7 +4,7 @@
     <div class="flex items-center justify-between">
         <a href="/" aria-label="Home">
             <x-logo.logomark class="h-8 sm:hidden" invert="{{ $invert }}" />
-            <x-logo.logo class="hidden h-8 sm:block" invert="{{ $invert }}" fillOnHover="true" />
+            <x-logo.logo class="hidden h-8 sm:block" invert="{{ $invert }}" fillOnHover="false" />
         </a>
         <div class="flex items-center gap-x-8">
             <x-button href="/contact" invert="{{ $invert }}">
