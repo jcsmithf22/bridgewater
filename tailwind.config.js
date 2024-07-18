@@ -23,6 +23,9 @@ export default {
             '7xl': ['4rem', {lineHeight: '4.5rem'}],
         },
         extend: {
+            transitionTimingFunction: {
+                'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+            },
             borderRadius: {
                 '4xl': '2.5rem',
             },

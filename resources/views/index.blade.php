@@ -28,5 +28,7 @@
         <x-index.testimonial class="mt-24 sm:mt-32 lg:mt-40 mb-48" :client="$client">
             We bring the business expertise you need to build yours.
         </x-index.testimonial>
+
+        <x-index.services />
     </x-layouts.root>
 </x-layouts.base>

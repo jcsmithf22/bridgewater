@@ -8,7 +8,7 @@
             >
             {{ $eyebrow }}
             </span>
-            <span className="sr-only"> - </span>
+            <span class="sr-only"> - </span>
         @endif
         <span
             class="block font-display tracking-tight [text-wrap:balance] {{ $invert ? 'text-white' : 'text-neutral-950' }} {{ $smaller ? 'text-2xl font-semibold' : 'text-4xl font-medium sm:text-5xl' }}">
