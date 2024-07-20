@@ -11,7 +11,7 @@
             <x-logo.logo class="h-8" />
             </a>
             <p class="text-sm text-neutral-700">
-                © Studio Agency Inc. {{ date('Y') }}
+                © Bridgewater Marketing Group {{ date('Y') }}
             </p>
         </div>
     </x-fade-in>
