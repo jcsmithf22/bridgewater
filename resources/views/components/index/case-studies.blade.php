@@ -2,24 +2,41 @@
     $studies = [
         [
             "href" => "/",
-            "title" => "test title",
-            "description" => "test description",
+            "title" => "Website Development",
+            "description" => "We will build your website from the ground up, enhanced to the level you need.",
             "time" => "2023",
-            "logo" => asset('img/clients/family-fund/logomark-dark.svg'),
+            "logo" => asset('img/services/globe.svg'),
             "client" => "Family Fund",
         ],
         [
             "href" => "/",
-            "title" => "test title 2",
-            "description" => "test 2 description",
+            "title" => "SEO Optimization",
+            "description" => "Optimize your new or existing website to increase your visibility and business.",
             "time" => "2024",
-            "logo" => asset('img/clients/unseal/logomark-dark.svg'),
+            "logo" => asset('img/services/network.svg'),
+            "client" => "Unseal",
+        ],
+        [
+            "href" => "/",
+            "title" => "Social Media Management",
+            "description" => "Gain an active presence on the most influential social media platforms.",
+            "time" => "2024",
+            "logo" => asset('img/services/community.svg'),
+            "client" => "Unseal",
+        ],
+        [
+            "href" => "/",
+            "title" => "Google and Facebook Ads",
+            "description" => "Engaging, professional ads to spread awareness of your business.",
+            "time" => "2024",
+            "logo" => asset('img/services/eye.svg'),
             "client" => "Unseal",
         ],
     ]
 @endphp
 
 <x-section-intro
+    eyebrow="What We Offer"
     title="Harnessing technology for a brighter future"
     class="mt-24 sm:mt-32 lg:mt-40"
 >
@@ -41,18 +58,18 @@
                             <img src="{{ $study["logo"] }}" alt="{{ $study["client"] }}" class="h-16 w-16"/>
                         </a>
                     </h3>
-                    <p class="mt-6 flex gap-x-2 text-sm text-neutral-950">
-                        <time
-                            dateTime="{{ $study["time"] }}"
-                            class="font-semibold"
-                        >
-                            {{ $study["time"] }}
-                        </time>
-                        <span class="text-neutral-300" aria-hidden="true">
-                    /
-                  </span>
-                        <span>Case study</span>
-                    </p>
+{{--                    <p class="mt-6 flex gap-x-2 text-sm text-neutral-950">--}}
+{{--                        <time--}}
+{{--                            dateTime="{{ $study["time"] }}"--}}
+{{--                            class="font-semibold"--}}
+{{--                        >--}}
+{{--                            {{ $study["time"] }}--}}
+{{--                        </time>--}}
+{{--                        <span class="text-neutral-300" aria-hidden="true">--}}
+{{--                    /--}}
+{{--                  </span>--}}
+{{--                        <span>Case study</span>--}}
+{{--                    </p>--}}
                     <p class="mt-6 font-display text-2xl font-semibold text-neutral-950">
                         {{ $study["title"] }}
                     </p>
