@@ -30,5 +30,8 @@
         </x-index.testimonial>
 
         <x-index.services />
+
+        <x-contact-section />
+
     </x-layouts.root>
 </x-layouts.base>
