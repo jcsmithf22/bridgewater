@@ -1,4 +1,4 @@
-@props(['shape' => 0, 'sizes' => '', 'id' => rand(1000, 9999), 'src' => ''])
+@props(['shape' => 0, 'sizes' => '', 'id' => rand(1000, 9999), 'src' => '', 'loading' => 'eager'])
 
 @php
     $shapes = [
@@ -34,6 +34,7 @@
                     <img
                         alt=""
                         src="{{ $src }}"
+                        loading="{{ $loading }}"
                         class="w-full bg-neutral-100 object-cover"
                         style="aspect-ratio: '{{ $width }}/{{$height}}'"
                         sizes="{{ $sizes }}"
