@@ -28,6 +28,7 @@
                             <h2 class="font-display text-base font-semibold text-white">
                                 Follow us
                             </h2>
+                            <x-social-media.social-media invert="true" class="mt-6" />
                         </div>
                     </div>
 

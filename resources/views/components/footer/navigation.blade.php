@@ -19,6 +19,15 @@
                 [ "title" => "Contact us", "href" => '/contact']
             ]
         ],
+        [
+            "title" => "Connect",
+            "links" => [
+                [ "title" => 'Facebook', "href" => 'https://facebook.com', "icon" => "facebook" ],
+                [ "title" => 'Instagram', "href" => 'https://instagram.com', "icon" => "instagram" ],
+                [ "title" => 'GitHub', "href" => 'https://github.com', "icon" => "github" ],
+
+            ]
+        ]
     ]
 @endphp
 
