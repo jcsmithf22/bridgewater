@@ -47,7 +47,7 @@
     </p>
 </x-section-intro>
 <x-container class="mt-16">
-    <x-fade-in-stagger-parent class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+    <x-fade-in-stagger-parent class="grid grid-cols-1 gap-8 lg:grid-cols-2">
         @foreach($studies as $study)
             <x-fade-in-stagger-child index="{{ $loop->index }}" class="flex">
                 <article

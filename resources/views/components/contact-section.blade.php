@@ -6,7 +6,7 @@
                     Tell us about your project
                 </h2>
                 <div class="mt-6 flex">
-                    <x-button href="/contact" invert>
+                    <x-button href="{{ route('contact') }}" invert>
                         Say Hej
                     </x-button>
                 </div>

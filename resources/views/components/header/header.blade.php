@@ -7,7 +7,7 @@
             <x-logo.logo class="hidden h-8 sm:block" invert="{{ $invert }}" fillOnHover="false" />
         </a>
         <div class="flex items-center gap-x-8">
-            <x-button href="/contact" invert="{{ $invert }}">
+            <x-button href="{{ route('contact') }}" invert="{{ $invert }}">
                 Contact us
             </x-button>
             <button type="button" @click="headerExpanded = !headerExpanded"
