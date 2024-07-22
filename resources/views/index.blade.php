@@ -5,8 +5,9 @@
     ];
 @endphp
 
-<x-layouts.base>
-    <x-layouts.root>
+@extends('layouts.root')
+
+@section('content')
         <x-container class="mt-24 sm:mt-32 md:mt-56">
             <x-fade-in class="max-w-3xl py-12">
                 <h1
@@ -33,5 +34,4 @@
 
         <x-contact-section />
 
-    </x-layouts.root>
-</x-layouts.base>
+@endsection

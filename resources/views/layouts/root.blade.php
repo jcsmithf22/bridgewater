@@ -1,3 +1,6 @@
+@extends('layouts.base')
+
+@section('body')
 <header x-data="{ headerExpanded: false, expandableMenuHeight: $refs.expandableMenu.getBoundingClientRect().height }"
         x-init="$watch('headerExpanded', () => expandableMenuHeight = $refs.expandableMenu.getBoundingClientRect().height)">
     <div class="absolute left-0 right-0 top-2 z-40 pt-14" :aria-hidden="headerExpanded ? 'true' : undefined"
@@ -45,8 +48,15 @@
             class="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
             yOffset="-96"/>
 
-        <main class="w-full flex-auto">{{ $slot }}</main>
+        <main class="w-full flex-auto">
+            @yield('content')
+
+            @isset($slot)
+                {{ $slot }}
+            @endisset
+        </main>
 
         <x-footer.footer/>
     </div>
 </div>
+@endsection

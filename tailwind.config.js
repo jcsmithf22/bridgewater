@@ -1,13 +1,6 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
-// import forms from '@tailwindcss/forms';
+const defaultTheme = require('tailwindcss/defaultTheme')
 
-/** @type {import('tailwindcss').Config} */
-export default {
-    content: [
-        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-        './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
-    ],
+module.exports = {
     theme: {
         fontSize: {
             xs: ['0.75rem', {lineHeight: '1rem'}],
@@ -30,10 +23,28 @@ export default {
                 '4xl': '2.5rem',
             },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Inter var', ...defaultTheme.fontFamily.sans],
             },
         },
     },
-
-    plugins: [],
-};
+    variants: {
+        extend: {
+            backgroundColor: ['active'],
+        }
+    },
+    content: [
+        './app/**/*.php',
+        './resources/**/*.html',
+        './resources/**/*.js',
+        './resources/**/*.jsx',
+        './resources/**/*.ts',
+        './resources/**/*.tsx',
+        './resources/**/*.php',
+        './resources/**/*.vue',
+        './resources/**/*.twig',
+    ],
+    plugins: [
+        // require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
+    ],
+}
