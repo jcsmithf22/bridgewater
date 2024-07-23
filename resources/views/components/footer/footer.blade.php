@@ -8,7 +8,7 @@
         </div>
         <div class="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
             <a href="/" aria-label="Home">
-            <x-logo.logo class="h-8" />
+            <x-logo.logo class="h-8" :smHideLogo="false" />
             </a>
             <p class="text-sm text-neutral-700">
                 © Bridgewater Marketing Group {{ date('Y') }}
