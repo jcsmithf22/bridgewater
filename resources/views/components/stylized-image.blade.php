@@ -1,4 +1,4 @@
-@props(['shape' => 0, 'sizes' => '', 'id' => rand(1000, 9999), 'src' => '', 'loading' => 'eager'])
+@props(['shape' => 0, 'sizes' => '', 'id' => rand(1000, 9999), 'src', 'loading' => 'lazy'])
 
 @php
     $shapes = [
@@ -36,7 +36,7 @@
                         src="{{ $src }}"
                         loading="{{ $loading }}"
                         class="w-full bg-neutral-100 object-cover"
-                        style="aspect-ratio: '{{ $width }}/{{$height}}'"
+                        style="aspect-ratio: {{ $width }}/{{$height}}"
                         sizes="{{ $sizes }}"
                     />
                 </foreignObject>

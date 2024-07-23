@@ -9,7 +9,7 @@
     <div class="lg:flex lg:items-center lg:justify-end">
         <div class="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <x-fade-in class="w-[33.75rem] flex-none lg:w-[45rem]">
-                <x-stylized-image src="{{ asset('img/computer.webp') }}" loading="lazy" sizes="(min-width: 1024px) 41rem, 31rem" shape="0"
+                <x-stylized-image src="{{ asset('img/computer.webp') }}" sizes="(min-width: 1024px) 41rem, 31rem" shape="0"
                     class="justify-center lg:justify-end" />
             </x-fade-in>
         </div>
