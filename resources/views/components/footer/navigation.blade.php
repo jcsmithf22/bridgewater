@@ -44,6 +44,7 @@
                             <a
                                 href="{{ $link["href"] }}"
                                 class="transition hover:text-neutral-950"
+                                wire:navigate
                             >
                             {!! $link["title"] !!}
                             </a>
