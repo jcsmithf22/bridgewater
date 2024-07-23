@@ -2,7 +2,7 @@
 
 <x-container>
     <div class="flex items-center justify-between">
-        <a href="/" aria-label="Home">
+        <a href="/" aria-label="Home" wire:navigate>
             <x-logo.logomark class="h-8 sm:hidden" invert="{{ $invert }}" />
             <x-logo.logo class="hidden h-8 sm:block" invert="{{ $invert }}" fillOnHover="false" />
         </a>
