@@ -55,7 +55,7 @@
                     <h3>
                         <a href="{{ $study["href"] }}">
                             <span class="absolute inset-0 rounded-3xl"></span>
-                            <img src="{{ $study["logo"] }}" alt="{{ $study["client"] }}" class="h-16 w-16"/>
+                            <img src="{{ $study["logo"] }}" alt="{{ $study["client"] }}" class="h-12 w-12"/>
                         </a>
                     </h3>
 {{--                    <p class="mt-6 flex gap-x-2 text-sm text-neutral-950">--}}
