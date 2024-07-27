@@ -5,7 +5,7 @@
         <a href="/" aria-label="Home" wire:navigate>
             <x-logo.logomark class="h-8 sm:hidden" invert="{{ $invert }}" />
 {{--            <x-logo.logo class="hidden h-8 sm:block" invert="{{ $invert }}" fillOnHover="false" />--}}
-            <x-logo.expanded class="h-24 md:h-32 lg:h-36 hidden sm:block" invert="{{ $invert }}" />
+            <x-logo.expanded class="h-24 md:h-32 lg:h-32 hidden sm:block" invert="{{ $invert }}" />
         </a>
         <div class="flex items-center gap-x-8">
             <x-button href="{{ route('contact') }}" invert="{{ $invert }}">
