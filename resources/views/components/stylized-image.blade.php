@@ -26,36 +26,36 @@
 
 @endphp
 
-<div {{ $attributes->merge(['class' => 'relative flex aspect-[719/680] w-full grayscale']) }}>
-    <svg viewBox="0 0 {{ $width }} {{ $height }}" fill="none" class="h-full">
-        <g clip-path="url(#{{ $id }}-clip" class="group">
-            <g class="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
-                <foreignObject width="{{ $width }}" height="{{ $height }}">
-                    <img
-                        alt=""
-                        src="{{ $src }}"
-                        loading="{{ $loading }}"
-                        class="w-full bg-neutral-100 object-cover"
-                        style="aspect-ratio: {{ $width }}/{{$height}}"
-                        sizes="{{ $sizes }}"
-                    />
-                </foreignObject>
-            </g>
-            <use
-                href="#{{ $id }}-shape"
-                stroke-width="2"
-                class="stroke-neutral-950/10"
-            />
-        </g>
-        <defs>
-            <clipPath id="{{ $id }}-clip">
-                <path
-                    id="{{ $id }}-shape"
-                    d="{{ $path }}"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+<div {{ $attributes->merge(['class' => 'relative flex aspect-[719/680] w-full blue-filter']) }}>
+        <svg viewBox="0 0 {{ $width }} {{ $height }}" fill="none" class="h-full">
+            <g clip-path="url(#{{ $id }}-clip" class="group">
+                <g class="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
+                    <foreignObject width="{{ $width }}" height="{{ $height }}">
+                        <img
+                            alt=""
+                            src="{{ $src }}"
+                            loading="{{ $loading }}"
+                            class="w-full bg-neutral-100 object-cover"
+                            style="aspect-ratio: {{ $width }}/{{$height}}"
+                            sizes="{{ $sizes }}"
+                        />
+                    </foreignObject>
+                </g>
+                <use
+                    href="#{{ $id }}-shape"
+                    stroke-width="2"
+                    class="stroke-neutral-950/10"
                 />
-            </clipPath>
-        </defs>
-    </svg>
+            </g>
+            <defs>
+                <clipPath id="{{ $id }}-clip">
+                    <path
+                        id="{{ $id }}-shape"
+                        d="{{ $path }}"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                    />
+                </clipPath>
+            </defs>
+        </svg>
 </div>

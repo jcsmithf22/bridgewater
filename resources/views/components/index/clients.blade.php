@@ -19,7 +19,7 @@
             <h2 class="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
                 We’ve worked with hundreds of amazing people
             </h2>
-            <div class="h-px flex-auto bg-divider"></div>
+            <div class="h-px flex-auto bg-white/10"></div>
         </x-fade-in>
         <x-fade-in-stagger-parent>
             <ul role="list" class="pt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">

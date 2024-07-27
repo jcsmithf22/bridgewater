@@ -53,3 +53,8 @@
 [x-cloak] {
     display: none;
 }
+
+.blue-filter {
+    //filter: sepia(100%) hue-rotate(190deg) saturate(600%) grayscale(70%) brightness(80%);
+    filter: grayscale(100%);
+}

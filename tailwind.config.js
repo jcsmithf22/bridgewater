@@ -29,9 +29,13 @@ module.exports = {
                 // 'background': "#03083b",
                 // 'divider': "#353962",
                 // 'hover': "#1c204e",
-                'background': "#353962",
-                'hover': "#4e5275",
-                'divider': "#676a89",
+                // 'background': "#353962",
+                // 'hover': "#4e5275",
+                // 'divider': "#676a89",
+                'background': "#023e8a",
+                'hover': "#023371", //"#0249a3"
+                'divider': "#03045e",
+                'light-divider': "#0249a3",
             }
         },
     },
