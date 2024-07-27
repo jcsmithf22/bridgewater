@@ -25,6 +25,14 @@ module.exports = {
             fontFamily: {
                 sans: ['Inter var', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                // 'background': "#03083b",
+                // 'divider': "#353962",
+                // 'hover': "#1c204e",
+                'background': "#353962",
+                'hover': "#4e5275",
+                'divider': "#676a89",
+            }
         },
     },
     variants: {

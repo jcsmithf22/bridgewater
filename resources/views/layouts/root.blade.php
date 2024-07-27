@@ -9,16 +9,16 @@
         <x-header.header icon="menu-icon"/>
     </div>
 
-    <div id="default_panel" class="relative z-50 overflow-hidden bg-neutral-950 pt-2 h-2 transition-all duration-500"
+    <div id="default_panel" class="relative z-50 overflow-hidden bg-background pt-2 h-2 transition-all duration-500"
          :aria-hidden="headerExpanded ? undefined : 'true'" :inert="headerExpanded ? undefined : ''"
          :style="{ height: headerExpanded ? expandableMenuHeight + 'px' : '0.5rem' }">
-        <div class="bg-neutral-800" x-ref="expandableMenu">
-            <div class="bg-neutral-950 pb-16 pt-14">
+        <div class="bg-divider" x-ref="expandableMenu">
+            <div class="bg-background pb-16 pt-14">
                 <x-header.header invert="true" icon="x-icon"/>
             </div>
             <x-navigation.navigation/>
             <div
-                class="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
+                class="relative bg-background before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-divider">
                 <x-container>
                     <div class="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                         <div>

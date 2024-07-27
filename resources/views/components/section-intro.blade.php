@@ -4,7 +4,7 @@
     <x-fade-in class="max-w-2xl">
         @if(strlen($eyebrow) > 0)
             <span
-                class="mb-6 block font-display text-base font-semibold {{ $invert ? 'text-white' : 'text-neutral-950' }}"
+                class="mb-6 block font-display text-base font-semibold {{ $invert ? 'text-white' : 'text-hover' }}"
             >
             {{ $eyebrow }}
             </span>

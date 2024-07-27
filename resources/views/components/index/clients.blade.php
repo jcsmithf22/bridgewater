@@ -12,13 +12,14 @@
 
 @endphp
 
-<div class="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+{{--<div class="mt-24 rounded-4xl bg-background py-20 sm:mt-32 sm:py-32 lg:mt-56 relative z-10">--}}
+<div class="rounded-4xl bg-background py-20 sm:py-32 relative z-10">
     <x-container>
         <x-fade-in class="flex items-center gap-x-8 flex-row">
             <h2 class="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
                 We’ve worked with hundreds of amazing people
             </h2>
-            <div class="h-px flex-auto bg-neutral-800"></div>
+            <div class="h-px flex-auto bg-divider"></div>
         </x-fade-in>
         <x-fade-in-stagger-parent>
             <ul role="list" class="pt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">

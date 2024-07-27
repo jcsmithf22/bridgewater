@@ -3,7 +3,7 @@
 <x-container class="mt-24 sm:mt-32 lg:mt-40 {{ $centered ? 'text-center' : '' }}">
     <x-fade-in>
         <h1>
-            <span class="block font-display text-base font-semibold text-neutral-950">
+            <span class="block font-display text-base font-semibold text-background">
                 {{ $eyebrow }}
             </span>
             <span class="sr-only"> - </span>
