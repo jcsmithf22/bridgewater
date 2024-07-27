@@ -1,7 +1,7 @@
 @props(['invert' => false, 'fillOnHover' => false, 'smHideLogo' => true])
 
 <div class="flex flex-row items-center">
-    <x-logo.logomark preserveAspectRatio="xMinYMid meet" invert="{{ $invert }}" class="{{ $smHideLogo ? 'hidden sm:block' : ''}}" />
+    <x-logo.logomark preserveAspectRatio="xMinYMid meet" invert="{{ $invert }}" class="h-8 {{ $smHideLogo ? 'hidden sm:block' : ''}}" />
 
 
     <svg viewBox="0 0 250 32" aria-hidden="true"
