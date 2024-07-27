@@ -15,7 +15,7 @@
 </svg>
 - --}}
 
-<svg viewBox="0 0 60.461536 32" width="48" aria-hidden="true"
+<svg viewBox="0 0 60.461536 32" aria-hidden="true"
     {{ $attributes->merge(['class' => $invert ? 'stroke-white fill-white' : 'stroke-neutral-950']) }}>
     <path d="m 0.25365325,20.51355 v 0.714133 L 60.178417,3.6341465 60.210475,0.61533115 Z"
           style="stroke-width:0.115972"
